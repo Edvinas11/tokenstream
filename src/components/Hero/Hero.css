@@ -1,0 +1,31 @@
+.hero {
+  padding: 10rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  margin: 0;
+  max-width: 800px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+

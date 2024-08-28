@@ -1,0 +1,107 @@
+.market {
+  background-color: black;
+}
+
+.market-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.market-content h2 {
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.market-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.market-table th,
+.market-table td {
+  padding: 16px;
+  text-align: center;
+}
+
+.market-table th {
+  background-color: #ff7e5f;
+  color: white;
+  font-weight: bold;
+}
+
+.market-table tbody tr:hover {
+  background-color: #1b1514;
+  cursor: pointer; 
+}
+
+.market-table td {
+  color: white;
+}
+
+.market-table tr {
+  border-bottom: 1px solid white;
+}
+
+.market-table th:first-child {
+    text-align: left;
+  }
+
+.market-table td:first-child {
+  text-align: left;
+}
+
+.market-table th:last-child {
+    text-align: right;
+  }
+
+.market-table td:last-child {
+  text-align: right;
+}
+
+.market-table td.crypto-name {
+  display: flex;
+  align-items: center;
+}
+
+.crypto-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.market-table .positive {
+  color: #28a745;
+}
+
+.market-table .negative {
+  color: #dc3545;
+}
+
+.market-pagination {
+  margin-top: 25px;
+}
+
+.market-pagination-button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.market-pagination-button:hover {
+  background-color: #ff7e5f;
+  color: white;
+}
+
+.market-pagination-button.active {
+  background-color: #ff7e5f;
+  color: white;
+  border-color: #ff7e5f;
+}

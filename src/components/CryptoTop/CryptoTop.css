@@ -1,0 +1,8 @@
+.crypto-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}

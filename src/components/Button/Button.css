@@ -1,0 +1,65 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button variants */
+.button--primary {
+  background-color: #ff7e5f;
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: #d66f55;
+}
+
+.button--secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.button--secondary:hover {
+  background-color: #5a6268;
+}
+
+.button--tertiary {
+  background-color: #f8f9fa;
+  color: #343a40;
+  border: 1px solid #343a40;
+}
+
+.button--tertiary:hover {
+  background-color: #e2e6ea;
+}
+
+/* Button sizes */
+.button--small {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+
+.button--medium {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.button--large {
+  padding: 15px 30px;
+  font-size: 1.125rem;
+}
+
+/* Disabled state */
+.button:disabled {
+  background-color: #e2e2e2;
+  color: #999;
+  cursor: not-allowed;
+  transform: none;
+}

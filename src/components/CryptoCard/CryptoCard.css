@@ -1,0 +1,47 @@
+.crypto-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px; 
+    margin: 10px 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .crypto-card__image {
+    width: 100px; 
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .crypto-card__title {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .crypto-card__price {
+    font-size: 1.125rem;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .crypto-card__grow {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .crypto-card__grow.positive {
+    color: #28a745; 
+  }
+  
+  .crypto-card__grow.negative {
+    color: #dc3545; 
+  }
+  

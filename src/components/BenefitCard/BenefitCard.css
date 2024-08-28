@@ -1,0 +1,37 @@
+.benefit-card {
+    display: flex;
+    margin: 1rem 2rem;
+}
+
+.benefit-card-content {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    max-width: 300px;
+    gap: 25px;
+}
+
+.benefit-card-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit-card-content-text p {
+    font-size: 15px;
+}
+
+.benefit-card-icon {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.benefit-card-icon img {
+    width: 35px;
+    height: 35px;
+}
